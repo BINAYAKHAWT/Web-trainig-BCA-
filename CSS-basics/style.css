@@ -1,0 +1,82 @@
+*{
+color: rgb(249, 5, 5);
+}
+/**
+ELEMENT SELECTOR
+**/
+h1{
+color: rgb(255, 242, 0);
+font-size: 50px;
+}
+/**
+class selector
+**/
+.bluecolor{
+color: rgb(0, 13, 255);
+
+}
+.paragraph{
+color: rgb(0, 0, 0);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/**
+ID selector
+**/
+#IT{
+    color: purple;
+}
+/**
+Grouping Selector
+**/
+.Message{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+}
+.success, .error{
+    color:white;
+    font-family: 'Poppins', sans-serif;
+}
+.success{
+    background-color: lime;
+
+}
+.error{
+    background-color: red;
+}
+/**
+Chainning selector
+**/
+.Message.success{
+    background-color: rgb(9, 242, 36);
+
+}
+
+
+
+
+.Message{
+    background:orange;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 800;
+        text-transform: lowercase;
+        text-align: center;
+}
+img{
+}
+.center{
+    text-align: center;
+
+}
+.execute{
+    text-align: center;
+
+}
+body{
+    background-color: bisque;
+    background-image: url('https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/236f44583009506b8d9d012c4d3119a5.jpe');
+    background-size: contain;
+    background-repeat: repeat;
+    background-position: center;
+    background-image: linear-gradient(pink,blue);
+}
+
