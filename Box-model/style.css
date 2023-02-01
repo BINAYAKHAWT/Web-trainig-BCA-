@@ -1,0 +1,44 @@
+/* /**
+BORDER, PADDINGS AND MARGINS
+**/
+/* p {
+background-color: rgb(255, 255, 255);
+border: 5px solid black;
+padding: 20px 20px 20px 20px;
+margin: 50px;
+box-shadow: 10px 10px 5px 2px rgb(169, 244, 7) ;
+}
+a{
+    background-color: aquamarine;
+    margin-right: 10px;
+    padding: 5px;
+    border: 1px solid #000;
+} */
+
+
+
+body{
+    background-color: rgb(212, 242, 18);
+
+}
+
+.card{
+    width:300px;
+    background-color: #fff;
+    margin: 60px;
+}
+
+.card-image{
+    width: 100%;
+}
+
+.card-image img{
+    width: 100%;
+}
+
+.card-detail{
+    padding: 0px 0px 20px 20px;
+
+
+
+}
