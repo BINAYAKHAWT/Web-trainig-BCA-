@@ -1,0 +1,47 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* box border */
+
+header{
+    color: #fff;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    
+    width: 900px;
+    display:flex;   
+    justify-content: space-between;
+}
+
+.links{
+    display: flex;
+    gap: 10px;
+
+}
+.hero-container{
+    margin-top: 20px;
+    display: flex;
+    background-color: blanchedalmond;
+    justify-content: center ;
+}
+
+.hero{
+    width: 900px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Subscribe{
+background-color: red;
+
+
+}
