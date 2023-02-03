@@ -1,13 +1,14 @@
-{
+*{
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
 }
 /* box border */
 
 header{
     color: #fff;
-    background-color: blue;
+    background-color: rgb(89, 149, 218);
     padding: 20px 0;
     display: flex;
     justify-content: center;
@@ -22,13 +23,25 @@ header{
 
 .links{
     display: flex;
-    gap: 10px;
+    gap: 20px;
+
+}
+.href-links{
+    text-decoration: none;
+}
+.href-links:visited{
+    color: #fff;
+}
+.Subscribe{
+ color: rgb(89, 149, 218);
+ font-weight: 600;
+
 
 }
 .hero-container{
-    margin-top: 20px;
+
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(205, 241, 255);
     justify-content: center ;
 }
 
@@ -39,9 +52,22 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .photo-grid {
+    width: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+  }
 
-.Subscribe{
-background-color: red;
-
-
-}
