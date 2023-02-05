@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <title>Web Training | Intro component with sign up form</title>
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="left-side">
+      <h1>
+        Learn to code by watching others
+      </h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable. 
+      </p>
+    </div>
+
+
+    <div class="right-side">
+
+      <p class="message"><strong>Try it free 7 days</strong> then $20/months thereafter</p>
+
+      <form>
+
+        <div class="input-group error">
+          <input type="text" name="first_name" placeholder="First Name">
+          <p class="message">First name cannot be empty.</p>
+        </div>
+
+        <div class="input-group">
+          <input type="text" name="last_name" placeholder="Last Name">
+          <p class="message">Last name cannot be empty.</p>
+        </div>
+
+        <div class="input-group">
+          <input type="email" name="email" placeholder="Email Address">
+          <p class="message"></p>
+        </div>
+
+        <div class="input-group">
+          <input type="password" name="password" placeholder="Password">
+          <p class="message"></p>
+        </div>
+
+        <button>CLAIM YOUR FREE TRAIL</button>
+
+        <p class="message">
+          By clicking the button, you are agreeing to our <a href="">Terms and Services</a>
+        </p>
+        
+      </form>
+    </div>
+  </div>  
+</body>
+</html>

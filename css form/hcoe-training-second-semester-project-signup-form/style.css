@@ -1,0 +1,129 @@
+*{
+    MARGIN:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    gap: 50px;
+    padding: 20px 50px;
+    color: white;
+    margin-top: 100px;
+}
+
+.left-side, .right-side {
+    width: 50%;
+}
+
+.left-side h1{
+    font-size: 50px;
+}
+
+.right-side > .message {
+    background-color: hsl(248, 32%, 49%);
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 7px;
+    font-size: 14px;
+    box-shadow: 0px 5px 0px 0px rgba(0,0,0,0.2);
+}
+
+form {
+    background-color: white;
+    padding: 40px;
+    margin-top: 25px;
+    border-radius: 7px;
+    box-shadow: 0px 10px 0px 0px rgba(0,0,0,0.2);
+}
+
+.input-group {
+    width: 100%;
+    margin: 20px 0;
+}
+.input-group input {
+    width: 100%;
+    padding: 15px 15px;
+    border: 1px solid hsl(246, 25%, 77%);
+}
+input:active, input:focus {
+    outline: 1px solid hsl(248, 32%, 49%);
+}
+
+input::placeholder {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input-group.error  input {
+    border: 1px solid hsl(0, 100%, 74%);
+}
+
+.input-group.error input::placeholder {
+    color: hsl(0, 100%, 74%);
+}
+
+.input-group .message {
+    display: none;
+    color: hsl(0, 100%, 74%);
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.error.input-group .message {
+    display: block;
+}
+
+
+button {
+    padding: 15px 15px;
+    background-color: hsl(154, 89%, 50%);
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 7px;
+    color: white;
+    border:none;
+    font-weight: 500;
+    box-shadow:inset 4px 5px 0px 0px rgba(0,0,0,0.2);
+
+}
+
+form > .message {
+    color: hsl(246, 25%, 77%);
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+form > .message a {
+    text-decoration: none;
+    color: hsl(0, 98%, 67%);
+    margin-top: 10px;
+}
+.input-group.error input{
+    border: 1px solid hsl(0, 98%, 67%);
+
+
+}
+.input-group.error input::placeholder {
+    color: hsl(0, 98%, 67%);
+
+}
+.input-group.error .message{
+    display:block;
+}
