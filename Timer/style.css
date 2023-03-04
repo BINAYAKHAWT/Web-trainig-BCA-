@@ -1,0 +1,63 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(171, 246, 91);
+    font-size: 10px;
+    font-family: 'Inconsolata', monospace;
+   
+}
+
+.timer-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer-controls{
+    display: flex;
+
+
+}
+
+.timer-button{
+    background : none;
+    border: 0;
+    cursor: crosshair;
+    color: white;
+    font-size: 2em;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0, 0.3);
+    padding: 1em;
+    font-family: 'Inconsolata', monospace;
+    
+}
+.timer-button:hover{
+    background:  rgb(0, 0, 0, 0.1);
+
+}
+
+.time-left{
+    font-size: 20em;
+    color: white;
+    text-shadow: 4px 5px 0 rgba(0, 0, 0, 0.3);
+
+}
+.end-time{
+    font-size: 3em;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.timer-display{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

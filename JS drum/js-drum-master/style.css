@@ -1,0 +1,48 @@
+/** Normalization
+**/
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: aliceblue;
+    
+}
+
+.key-container {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.key {
+    border: 4px solid black ;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 15px;
+    padding: 10px 5px;
+    width: 100px;
+    text-align: center;
+}
+
+kbd {
+    display: block;
+    font-size: 50px;
+
+}
+.Sound {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #    fdd006;
+
+}
